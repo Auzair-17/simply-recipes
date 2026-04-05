@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--nav-->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!--header-->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!--links-->
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!--end nav-->
+    <!--main-->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>the simply recipes</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ipsam.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ipsam.
+          </p>
+          <a href="contact.html" class="btn">contact</a>
+        </article>
+        <img
+          src="./assets/about.jpeg"
+          alt="pouring salt"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">featured recipes</h5>
+        <!-- Recipes list -->
+        <div class="recipes-list">
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>banana pancakes</h5>
+            <p>Prep: 14min | Cook: 15min</p>
+          </a>
+          <!-- End of Single Recipe -->
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>greek ribs</h5>
+            <p>Prep: 14min | Cook: 15min</p>
+          </a>
+          <!-- End of Single Recipe -->
+          <!-- Single Recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>vegetable soup</h5>
+            <p>Prep: 14min | Cook: 15min</p>
+          </a>
+          <!-- End of Single Recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
+    <!--end of main-->
+    <!--footer-->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Build by
+        <span class="author">Mr. Auzair</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
